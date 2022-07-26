@@ -1,0 +1,51 @@
+CentOS7 系统开机登录账号名：verifier 密码：verifier
+普通用户： verifier , 密码：verifier
+管理员： root , 密码：123456
+Open Terminal”打开 Terminal, 输入
+cd project/rkv_labs/
+进入实验目录
+常用软件指令及相关
+Questasim
+命令：vsim -i &
+打开 questasim 界面。
+DVT Eclipse
+命令：dvt.sh &
+打开 DVT 界面。
+VCS
+命令：dve -full64 &
+打开 DVE 界面。
+Verdi
+命令：verdi &
+打开 verdi 界面
+命令：verdi -cov &
+打开 verdi 跑回归。
+Gvim
+直接输入 gvim 回车就可以, 键入“vt”可以打开当前目录。双击文件打开。gvim 已经配置
+了 sv，uvm 语法高亮，自动补全等功能。
+键入“ws”打开第二窗口。
+实验：
+cd 到实验目录下。
+例：cd /project/rkv_labs/v2.2_uvm_basic/lab5/
+/opt/project/rkv_labs/svlab
+
+编译：
+make comp
+make elab
+运行仿真：
+make run TEST=your_testname
+(使用 GUI 方式运行仿真，可以看波形)make rung TEST=your_testname
+
+
+ping: www.tuniu.com: Name or service not known
+
+vcs -R ClockDiv.v tb_ClockDiv.v -P ${NOVAS_HOME}/share/PLI/VCS/linux64/novas.tab ${NOVAS_HOME}/share/PLI/VCS/linux64/pli.a -full64 -debug_all
+ping -c 5 www.baidu.com -D |awk '1' |while read result
+do
+    if [[ "${result}" =~ "[" ]] # 以 [ 开头的行带时间戳
+    then
+       read timestamp rest < <(echo ${result}|tr -d '[]')
+       echo $(date -d @${timestamp}) "${rest}"
+       else
+           echo "${result}"
+    fi
+done
