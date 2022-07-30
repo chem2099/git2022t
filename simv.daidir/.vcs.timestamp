@@ -1,0 +1,106 @@
+0 
+38
++itf+/opt/synopsys/vcs201809/linux64/lib/vcsdp_lite.tab
++v2k
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/opt/synopsys/vcs201809/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -Wl,--no-as-needed -rdynamic
+-Mobjects= /opt/synopsys/vcs201809/linux64/lib/libvirsim.so /opt/synopsys/vcs201809/linux64/lib/liberrorinf.so /opt/synopsys/vcs201809/linux64/lib/libsnpsmalloc.so /opt/synopsys/vcs201809/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/opt/synopsys/vcs201809/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/opt/synopsys/verdi201809/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/opt/synopsys/vcs201809/include
+-P
+-Xufe=2steps
+-debug_acc+all
+-fsdb
+-full64
+-gen_obj
+-kdb
+-l
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+-top
+/opt/git2022t/test_2207/design/memory.v
+/opt/git2022t/test_2207/tb/top.sv
+/opt/synopsys/vcs201809/linux64/bin/vcs1
+/opt/synopsys/verdi201809/share/PLI/VCS/LINUX64/verdi.tab
+top
+top.cmp
+52
+sysc_uni_pwd=/opt/git2022t
+novas_args=-P /opt/synopsys/verdi201809/share/PLI/VCS/LINUX64/novas.tab   /opt/synopsys/verdi201809/share/PLI/VCS/LINUX64/pli.a 
+XDG_SESSION_TYPE=tty
+XDG_SESSION_ID=91
+XDG_SESSION_CLASS=user
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+VMR_MODE_FLAG=64
+VERDI_HOME=/opt/synopsys/verdi201809
+VCS_TARGET_ARCH=amd64
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=top.cmp
+VCS_HOME=/opt/synopsys/vcs201809
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/opt/synopsys/vcs201809/linux64
+SSH_TTY=/dev/pts/3
+SSH_CONNECTION=192.168.0.103 14549 192.168.0.105 22
+SSH_CLIENT=192.168.0.103 14549 22
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SNPS_VCS_INTERNAL_UBUNTU_PRE_LDFLAGS= -no-pie 
+SNPSYS_HOME=/opt/synopsys
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+OVA_UUM=0
+NOVAS_PLI=/opt/synopsys/verdi201809/share/PLI/VCS/LINUX64
+NOVAS_HOME=/opt/synopsys/verdi201809
+NOVAS=/opt/synopsys/verdi201809/share/PLI/VCS/LINUX64
+MOTD_SHOWN=pam
+MFLAGS=
+MAKE_TERMOUT=/dev/pts/3
+MAKE_TERMERR=/dev/pts/3
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME=zh_CN.UTF-8
+LC_TELEPHONE=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_IDENTIFICATION=zh_CN.UTF-8
+LC_ALL=C
+LC_ADDRESS=zh_CN.UTF-8
+DVE_HOME=/opt/synopsys/vcs201809/gui/dve
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+0
+4
+1659182270 /opt/git2022t/test_2207/tb/top.sv
+1659182279 /opt/git2022t/test_2207/design/memory.v
+1550753332 /opt/synopsys/verdi201809/share/PLI/VCS/LINUX64/verdi.tab
+1551421246 /opt/synopsys/vcs201809/linux64/lib/vcsdp_lite.tab
+4
+1551422344 /opt/synopsys/vcs201809/linux64/lib/libvirsim.so
+1551421792 /opt/synopsys/vcs201809/linux64/lib/liberrorinf.so
+1551421768 /opt/synopsys/vcs201809/linux64/lib/libsnpsmalloc.so
+1551421789 /opt/synopsys/vcs201809/linux64/lib/libvfs.so
+1659182294 simv.daidir
+-1 partitionlib
